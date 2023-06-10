@@ -620,6 +620,7 @@ background-color: #b27856;
 }
 
 .section_sponsor_content{
+	overflow: hidden;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -704,7 +705,7 @@ display: flex;
 
 .button.negro:hover{
 
-	background-color: #b28756;
+			background-color: #b28756;
 	font-weight: 600;
 }
 .section_premium_content{
@@ -1025,7 +1026,7 @@ margin-left: 90px;
 .section_team_social.maps{
 	display: flex;
 	flex-direction: column;
-		align-items: flex-start;
+	align-items: flex-start;
 	font-weight: 400;
 	margin-left: 50px;
 
@@ -1296,6 +1297,9 @@ display: flex;
 	.section-aboutus .button{
 		margin-left: 300px;
 	}
+	.noimg{
+		display: none;
+	}
 }
 
 
@@ -1310,6 +1314,10 @@ display: flex;
 
 
   @media (max-width:450px){
+
+  			.noimg{
+  				display: none;
+  			}
 
 				.menu-opener{
 					display: block;
@@ -1490,5 +1498,7 @@ display: flex;
 	.mobilenone{
 		display: none;
 	}	
+
+	
 }
 
