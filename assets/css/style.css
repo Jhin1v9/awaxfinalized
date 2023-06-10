@@ -10,11 +10,8 @@ body{
 	
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 	
-
-
-
 }
 header{
 	color: white;
@@ -1166,6 +1163,21 @@ display: flex;
 
 @media (min-width:450px) and (max-width:800px){
 
+
+		 body {
+			    overflow-y: scroll; /* Permite a rolagem vertical */
+			    -ms-overflow-style: none; /* IE e Edge */
+			    scrollbar-width: none; /* Firefox */
+			  }
+
+			  body::-webkit-scrollbar {
+			    display: none; /* Chrome, Safari, e Opera */
+			  }
+  
+
+
+
+
 				.menu-opener{
 					display: block;
 					width: 45px;
@@ -1300,6 +1312,7 @@ display: flex;
 	.noimg{
 		display: none;
 	}
+
 }
 
 
@@ -1314,6 +1327,15 @@ display: flex;
 
 
   @media (max-width:450px){
+			  	 body {
+			    overflow-y: scroll; /* Permite a rolagem vertical */
+			    -ms-overflow-style: none; /* IE e Edge */
+			    scrollbar-width: none; /* Firefox */
+			  }
+
+			  body::-webkit-scrollbar {
+			    display: none; /* Chrome, Safari, e Opera */
+			  }
 
   			.noimg{
   				display: none;
