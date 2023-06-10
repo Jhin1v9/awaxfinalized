@@ -1162,7 +1162,7 @@ display: flex;
 
 
 @media (min-width:450px) and (max-width:800px){
-			
+
 
 		 body {
 			    overflow-y: scroll; /* Permite a rolagem vertical */
@@ -1312,17 +1312,162 @@ display: flex;
 	.noimg{
 		display: none;
 	}
-	.first{
-		margin-left:30px;
-		margin-right:30px;
-	}
-	.first img{
-		margin-right:5px;
-	}
-		
+
 }
 
 
+
+@media (min-width:801px) {
+
+
+		 body {
+			    overflow-y: scroll; /* Permite a rolagem vertical */
+			    -ms-overflow-style: none; /* IE e Edge */
+			    scrollbar-width: none; /* Firefox */
+			  }
+
+			  body::-webkit-scrollbar {
+			    display: none; /* Chrome, Safari, e Opera */
+			  }
+  
+
+
+
+
+				.menu-opener{
+					display: block;
+					width: 45px;
+					margin-right: 30px;
+				}
+
+				.logo{
+					margin-left: 30px;
+				}
+
+	header .menu nav{
+		display: none;
+		position: absolute;
+		background-color: rgba(0, 0, 0, 0.9);
+		width: 75vw;
+		height: calc(100vh - 100px);
+		top: 100px;
+		right: 0px
+	}
+	.menu ul{
+		flex-direction: column;
+	}
+
+	.menu ul li a{
+		font-weight: bold;
+		height: 80px;
+		font-size: 27px;
+		margin-left: 50px;
+		border:0;
+
+	}
+	.menu li.active a{
+		border: 0;
+		color: #b28756;
+	}
+
+	.section-aboutus{
+		flex-direction: column;
+	}
+	.section-aboutus--left{
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 30px;
+
+
+			}
+
+	.section-aboutus--right{
+		width: auto;
+	}
+	.section_services{
+		flex-wrap: wrap;
+	}
+	.section_service{
+		min-width: 50%;
+		margin-bottom: 30px;
+	}
+	.section_price_contents{
+		flex-direction: column;
+	}
+	.section_price_content:first-child{
+		display: none;
+	}
+	.section_price_content{
+		margin-top: 30px;
+	}
+	.section_premium_content {
+		flex-direction: column;
+
+	}
+	.section_facts{
+		flex-direction: column;
+	}
+	.line_1_form {
+		flex-direction: column;
+
+}
+	#name{
+		margin-right: 0;
+
+	}
+	.section_team{
+		max-width: 580px;
+
+	}
+	.button.footer{
+		margin-top: 94px;
+
+	}
+	.section_footers{
+		flex-direction: column;
+	}
+	.footer3{
+		width: 50px;
+		margin-left: 200px;
+		height: auto;
+	}
+	.section_maps_contents{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.section_maps_content{
+		width: 100vw;
+		margin-left: 0;
+		
+
+	}
+	
+	.section_team_social.maps{
+		justify-content: space-evenly;
+	}
+	.section_footers{
+		flex-direction: column-reverse;
+	}
+	.footer3{
+		padding: 50px;
+
+	}
+	.footer2{
+		order: -1;
+	}
+	.section_footer a{
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	.section_service.footer2 p{
+		text-align: justify;
+	}
+	.section-aboutus .button{
+		margin-left: 300px;
+	}
+
+
+}
 
 
 
@@ -1357,14 +1502,6 @@ display: flex;
 				.logo{
 					margin-left: 30px;
 				}
-	  .first{
-		margin-left:30px;
-		margin-right:30px;
-	}
-	.first img{
-		margin-right:5px;
-	}
-	
 
 	header .menu nav{
 		display: none;
