@@ -1317,7 +1317,7 @@ display: flex;
 
 
 
-@media (min-width:801px) {
+@media (max-width:801px) {
 
 
 		 body {
